@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Test NG" verbose="2">
+<test name ="Test Case">
+<parameter name="Name" value="Rajini Kanth"></parameter>
+
+<classes>
+<class name="testNG.ParameterizationEx"></class>
+</classes>
+</test>
+</suite>
+
+<!-- <groups>
+<run>
+<include name="RedMi"></include>
+<include name="Apple"></include>
+</run></groups> -->
+
+<!-- <class name="testNG.DependencyTask"></class>
+<class name="testNG.DriveACar"></class>
+<class name="testNG.SampleTestcase"></class>
+<class name="testNG.SkipTestCase"></class> -->
